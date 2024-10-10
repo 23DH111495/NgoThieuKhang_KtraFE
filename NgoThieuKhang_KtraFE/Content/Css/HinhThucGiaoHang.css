@@ -1,0 +1,169 @@
+﻿.mid {
+    display: flex;
+    justify-content: space-between; 
+    /*align-items: flex-start;  */
+}
+.main-content {
+    /*flex: 0 0 50%;*/ /* 60% width for main content */
+    background-color: #F4F4FC;
+    margin-left:0px;
+}
+
+
+.table-I {
+    background-color: white;
+    margin-left: 10px;
+    width: 900px;
+    margin-top: 20px;
+}
+.title-hinh-thuc-giao-hang {
+    border: 1px solid white;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text-title {
+    border: 1px solid white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:20px;
+}
+.giao-tiet-kiem {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    justify-content: left;
+    vertical-align: middle;
+    align-items: center;
+    background-color: #f4f4fc;
+}
+    .giao-tiet-kiem input[type="radio"]{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+.GTT-text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.red-price {
+    height: 20px;
+    width: 35px;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.red-label{
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.content{
+    width: 850px;
+    height: 110px;
+    border: 1px solid #ccc;
+    border-radius:20px;
+    margin: 10px 30px ;
+    display: grid;
+}
+/*.txt-1{
+    width:100px;
+}*/
+.shipping-info {
+    margin: 20px 20px;
+    display: flex;
+}
+.price-number {
+    margin-left: 220px;
+    font-weight: bold;
+
+    /*border: 1px solid black;*/
+    width: 130px;
+    height: 20px;
+}
+.GIA-DUNG-VIET {
+    display: flex;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: #d0dbdd;
+    color: #808080;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.product-info{
+    margin-left: 10px;
+    margin-top: -110px;
+    display: flex;
+    /*flex-direction: column;*/
+}
+    .product-info img {
+        width: 80px;
+        height: 50px;
+    }
+.product-info .product-name{
+    /*border:1px solid black;*/
+    width: 500px;
+    height: 20px;
+}
+.stacking-div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.detail {
+    border: 1px solid white;
+    width: 400px;
+    height: 30px;
+    display: flex;
+}
+.amount{
+    border:1px solid white;
+    width: 50px;
+}
+.price-GTT {
+    /*float: right;*/
+    font-weight: bold;
+    margin-left:auto;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+.footer-table-I{
+    display: flex;
+    align-items:center;
+    vertical-align: middle;
+    gap: 10px;
+}
+.shop-khuyen-mai {
+    /*border: 1px solid black;*/
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nhap-hoac-chon-gia {
+    margin-top: 5px;
+    border: 1px solid white;
+    color: #808080;
+    background-color: white;
+    font-size: 16px;
+    cursor:pointer;
+}
